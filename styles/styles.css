@@ -1101,11 +1101,17 @@ padding-left: 70px;
 }
 /*delivery*/
 
-.delivery-link-bottom {
-  position: relative;
-  display: flex;
+.delivery {
   width: 1160px;
   margin: 0 auto;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.delivery-link-bottom {
+
+  display: flex;
+  width: 100%;
   background-color: #F0F0F0;
   justify-content: center;
   padding: 35px 0;
@@ -1144,4 +1150,47 @@ padding-left: 70px;
   opacity: 0.3;
   position: absolute;
   right: 43px;
+  top: 30px;
 }
+
+ /*about-us*/
+ .about-us {
+  width: 1160px;
+  margin: 0 auto;
+ }
+
+ .about-us-main-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  padding-right: 17px;
+ }
+
+ .about-us-main-item {
+  padding-top: 47px;
+  width: 515px;
+ }
+
+ .about-us-title {
+  margin-bottom: 48px;
+ }
+
+ .about-us-descr {
+  margin: 0;
+  margin-bottom: 30px;
+ }
+
+ .contacts-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 15px;
+ }
+
+ .adress-descr {
+  font-style: normal;
+    margin: 0;
+ }
