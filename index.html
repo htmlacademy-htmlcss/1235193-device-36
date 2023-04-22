@@ -27,7 +27,9 @@
                            </svg>
                            <input type="text" name="search" placeholder="Поиск по сайту">
                         </label>
+                        <div class="button-block">
                         <button class="nav-button" type="submit">Найти</button>
+                      </div>
                      </form>
                   </li>
                   <li class="top-item item-index">
@@ -66,7 +68,7 @@
                      <div class="popover-cart">
                           <ul class="popover-cart-list">
                               <li class="popover-cart-item">
-                                 <a class="popover-cart-link">
+                                 <a class="popover-cart-link" href="#">
                                     <img class="popover-cart-image" src="images/product-small-1.jpg" width="39"
                                        height="43" alt="Любительская селфи-палка.">
                                     Любительская<br>селфи-палка
@@ -81,7 +83,7 @@
                                  </button>
                               </li>
                               <li class="popover-cart-item">
-                                 <a class="popover-cart-link">
+                                 <a class="popover-cart-link" href="#">
                                     <img class="popover-cart-image" src="images/product-small-2.jpg" width="39"
                                        height="43" alt="Профессиональная селфи-палка.">
                                     Профессиональная селфи-палка
@@ -124,7 +126,7 @@
                            </ul>
                            <ul class="popover-list">
                               <li class="popover-item">
-                                 <a class="popover-descr" href="#">Моноподы для селфи</a>
+                                 <a class="popover-descr" href="catalog.html">Моноподы для селфи</a>
                               </li>
                               <li class="popover-item">
                                  <a class="popover-descr" href="#">Умные часы</a>
@@ -264,7 +266,7 @@
                         </a>
                      </li>
                      <li class="choice-item">
-                        <a class="choice-link" href="#">
+                        <a class="choice-link" href="catalog.html">
                            <span class="choice-span">Моноподы<br>для селфи</span>
                         </a>
                      </li>
@@ -302,12 +304,12 @@
                         </a>
                      </li>
                      <li class="delivery-item">
-                        <a class="link link-service" href="#">
+                        <a class="link link-service " href="#">
                            <span class="link-text">Гарантия</span>
                         </a>
                      </li>
                      <li class="delivery-item">
-                        <a class="link link-service" href="#">
+                        <a class="link link-service " href="#">
                            <span class="link-text">Кредит</span>
                         </a>
                      </li>
@@ -378,7 +380,7 @@
                         <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
                         <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
                      </ul>
-                     <a class="contacts-link link">
+                     <a class="contacts-link link" href="#">
                       <span class="link-text">Напишите нам</span>
                     </a>
                   </li>
@@ -446,6 +448,49 @@
             </section>
          </footer>
       </div>
+      <div class="modal-container modal-container-close">
+        <div class="modal modal-auth">
+           <button class="modal-close-button" type="button">
+              <span class="visually-hidden">Закрыть</span>
+           </button>
+           <section class="modal-content">
+              <h2 class="modal-title">Доставка под заказ</h2>
+              <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+                <div class="user-descr user-name">
+                    <label  class="auth-form-label" for="auth-name">Ваше имя:</label>
+                    <input class="auth-form-field field-top" type="text" name="auth-name" id="auth-name" placeholder="Введите имя" required>
+                    <span class="explanation">Добавьте имя</span>
+                </div>
+                 <div class="user-descr user-email">
+                    <label class="auth-form-label" for="auth-email">Ваш e-mail:</label>
+                    <input class="auth-form-field field-top error" type="text" name="auth-email" id="auth-email" placeholder="почта"  required>
+                    <span class="explanation error-span">Забавный у вас адрес</span>
+                 </div>
+                 <div class="user-descr user-delivery">
+                  <label  class="auth-form-label" for="auth-product">Что нужно привезти:</label>
+                  <input class="auth-form-field field-product" type="text" name="auth-product" id="auth-product" placeholder="В свободной форме" required>
+                 </div>
+                 <div class="user-descr">
+                    <label class="auth-form-label" for="count">Количество:</label>
+                    <div class="tooltip">
+                      <button class="tooltip-toggle" type="button">i</button>
+                      <div class="tooltip-text">Постараемся найти, сколько нужно. Привезём сколько получится по требованиям к провозу багажа.</div>                </span>
+                      </div>
+                    <div class="count-wrapper">
+                    <button class="count-button count-left" type="button">
+                      </button>
+                    <input class="auth-form-field field" type="number" id="count" name="count"  min="1" placeholder="1" required>
+                    <button class="count-button count-right" type="button">
+                      </button>
+                    </div>
+                  </div>
+                 <button class="link modal-link" type="submit">
+                  <span class="link-text">Отправить</span>
+                 </button>
+              </form>
+           </section>
+        </div>
+     </div>
    </body>
 
 </html>
