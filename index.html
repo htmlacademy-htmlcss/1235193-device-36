@@ -118,23 +118,23 @@
                                  <a class="popover-descr" href="#">Виртуальная реальность</a>
                               </li>
                               <li class="popover-item">
-                                 <a class="popover-descr" href="#">Фитнес-браслеты</a>
+                                 <a class="popover-descr" href="#">Моноподы для селфи</a>
                               </li>
                               <li class="popover-item">
-                                 <a class="popover-descr" href="#">Квадрокоптеры</a>
+                                 <a class="popover-descr" href="#">Экшн-камеры</a>
                               </li>
                            </ul>
                            <ul class="popover-list">
                               <li class="popover-item">
-                                 <a class="popover-descr" href="catalog.html">Моноподы для селфи</a>
+                                 <a class="popover-descr" href="catalog.html">Фитнес-браслеты</a>
                               </li>
                               <li class="popover-item">
                                  <a class="popover-descr" href="#">Умные часы</a>
                               </li>
                            </ul>
                            <ul class="popover-list">
-                              <li class="popover-item item-camera">
-                                 <a class="popover-descr" href="#">Экшн-камеры</a>
+                              <li class="popover-item">
+                                 <a class="popover-descr" href="#">Квадрокоптеры</a>
                               </li>
                            </ul>
                         </div>
@@ -310,7 +310,7 @@
                      </li>
                      <li class="delivery-item">
                         <a class="link link-service " href="#">
-                           <span class="link-text">Кредит</span>
+                           <span class="link-text credit">Кредит</span>
                         </a>
                      </li>
                   </ul>
@@ -429,17 +429,17 @@
                <a class="footer-contacts-phone" href="tel:78128121212">Тел.: +7 (812) 812-12-12</a>
                <ul class="footer-social-list">
                   <li class="footer-social-item">
-                     <a class="footer-social-link telegram" href="#">
+                     <a class="footer-social-link telegram" href="https://t.me/htmlacademyru">
                       <span class="visually-hidden">Телеграм</span>
                      </a>
                   </li>
                   <li class="footer-social-item">
-                     <a class="footer-social-link youtube" href="#">
+                     <a class="footer-social-link youtube" href="https://www.youtube.com/user/htmlacademyru">
                       <span class="visually-hidden">Ютуб</span>
                      </a>
                   </li>
                   <li class="footer-social-item">
-                     <a class="footer-social-link twitter" href="#">
+                     <a class="footer-social-link twitter" href="https://twitter.com/htmlacademy_ru">
                       <span class="visually-hidden">Твиттер</span>
                      </a>
                   </li>
@@ -448,7 +448,7 @@
             </section>
          </footer>
       </div>
-      <div class="modal-container modal-container-close">
+      <div class="modal-container">
         <div class="modal modal-auth">
            <button class="modal-close-button" type="button">
               <span class="visually-hidden">Закрыть</span>
@@ -458,19 +458,19 @@
               <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
                 <div class="user-descr user-name">
                     <label  class="auth-form-label" for="auth-name">Ваше имя:</label>
-                    <input class="auth-form-field field-top" type="text" name="auth-name" id="auth-name" placeholder="Введите имя" required>
-                    <span class="explanation">Добавьте имя</span>
+                    <input class="auth-form-field field-top top-name" type="text" name="auth-name" id="auth-name" placeholder="Введите имя" required>
+                    <span class="visually-hidden">Добавьте имя</span>
                 </div>
                  <div class="user-descr user-email">
                     <label class="auth-form-label" for="auth-email">Ваш e-mail:</label>
-                    <input class="auth-form-field field-top error" type="text" name="auth-email" id="auth-email" placeholder="почта"  required>
+                    <input class="auth-form-field field-top top-email" type="email" name="auth-email" id="auth-email" placeholder="Введите адрес почты"  value="почта" required>
                     <span class="explanation error-span">Забавный у вас адрес</span>
                  </div>
                  <div class="user-descr user-delivery">
                   <label  class="auth-form-label" for="auth-product">Что нужно привезти:</label>
                   <input class="auth-form-field field-product" type="text" name="auth-product" id="auth-product" placeholder="В свободной форме" required>
                  </div>
-                 <div class="user-descr">
+                 <div class="user-descr user-count">
                     <label class="auth-form-label" for="count">Количество:</label>
                     <div class="tooltip">
                       <button class="tooltip-toggle" type="button">i</button>
