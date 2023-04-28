@@ -550,7 +550,7 @@ body {
   font-family: "Rubik", sans-serif;
   color: #ffffff;
   background-color: #000000;
-  display: none;
+  display: block;
 }
 
 .popover-cart::before {
@@ -605,6 +605,7 @@ body {
 .popover-cart-button {
   align-self: flex-start;
   background-color: #000000;
+  border: none;
   cursor: pointer;
   margin-left: auto;
   margin-top: -5px;
@@ -1245,7 +1246,7 @@ body {
   width: 280px;
   display: flex;
   height: 100%;
-  background-color: #000;
+  background-color: #000000;
   margin-top: 1px;
   justify-content: flex-start;
   padding-left: 27px;
@@ -1302,13 +1303,12 @@ body {
 }
 
 .delivery-link-bottom {
-
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   background-color: #f0f0f0;
-  justify-content: center;
   padding: 38px 100px;
+  padding-left: 321px;
   font-family: "Raleway";
   font-weight: 800;
   font-size: 20px;
@@ -1564,7 +1564,7 @@ body {
 }
 
 .subscribe-button:active {
-  color: #FFF;
+  color: #ffffff;
   background-color: #000000;
   opacity: 0.3;
 }
